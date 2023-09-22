@@ -1,0 +1,5 @@
+defmodule Opencast.Repo do
+  use Ecto.Repo,
+    otp_app: :opencast,
+    adapter: Ecto.Adapters.Postgres
+end
